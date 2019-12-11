@@ -1,0 +1,13 @@
+keystore: "sqAppLandPwd032017"
+alias: "sq_app_land_alias"
+keystore alias: "sqAppLandPwdAlias032017"
+keystore path :  -  /home/android2/Documents/Beant Singh/android_appland/app/sq_app_land_keystore.jks
+command to find keys: -   keytool -list -v -keystore "/home/android2/Documents/Beant Singh/android_appland/app/sq_app_land_keystore.jks" -alias "sq_app_land_alias"
+MD5:  6C:0D:C4:B4:87:E6:E6:29:46:A4:3F:19:68:05:C7:37
+SHA1: C8:3C:80:F0:15:11:C6:91:BD:E8:5B:6C:5D:C4:D8:D4:5B:DE:97:9E
+SHA256: 79:2D:1C:48:3F:38:58:C6:1C:B7:43:AC:CB:4E:CF:1A:40:7E:BD:AE:88:2E:DA:F6:B2:70:DB:F2:72:B6:65:18
+Signature algorithm name: SHA256withRSA
+Version: 3
+FB Work
+command to find keyhash: -  keytool -exportcert -alias "sq_app_land_alias" -keystore "/home/android2/Documents/Beant Singh/android_appland/app/sq_app_land_keystore.jks" | openssl sha1 -binary | openssl base64
+keyHash :-  yDyA8BURxpG96FtsXcTY1Fvel54= 
